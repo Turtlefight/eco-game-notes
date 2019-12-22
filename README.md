@@ -21,8 +21,8 @@ When you reach Mining Level 6 you can choose between 2 Talents:
 
 However i felt the game would be far more enjoyable if one could get both perks at once (no more large rock pieces + auto pickup).  
 This can be easily accomplished by editing the 2 skill files:
-- `Eco_Data\Server\Mods\AutoGen\Benefit\LuckyBreak.cs`
-- `Eco_Data\Server\Mods\AutoGen\Benefit\SweepingHands.cs`
+- `Eco_Data/Server/Mods/AutoGen/Benefit/LuckyBreak.cs`
+- `Eco_Data/Server/Mods/AutoGen/Benefit/SweepingHands.cs`
 
 Both initialize the set of talents you will get in the `TalentGroup`, e.g. for `SweepingHands.cs`:
 ```c#
@@ -40,6 +40,22 @@ Talents = new Type[] {
 ```
 
 Now you'll get both perks regardless of which one you pick :)
+
+### Experience Multiplier
+You can change the experience settings in your servers config (`Eco_Data/Server/Configs/Difficulty.eco`).
+For my single-player playthrough i went with
+```json
+{
+  "CollaborationPreset": "NoCollaboration",
+  "UnlearnRefundRate": 0.5,
+  "SpecialtyCostMultiplier": 0.1,
+  "SkillGainMultiplier": 15.0,
+  "SpecialtyExperienceDivisor": 20.0,
+  "SpecialtyExperiencePerLevel": 25.0,
+  "PlayerExperiencePerSpecialtyExperience": 0.001
+}
+```
+Altough these settings will probably be way too high for a multiplayer server.
 
 ### External Mods
 Additionally i can recommend the following mods:
