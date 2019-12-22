@@ -1,6 +1,12 @@
 # eco-game-notes
 Documentation of the changes i made to the default eco game to make it more enjoyable.
 
+### Chat Commands
+There are quite a few chat commands in eco.  
+The most helpful ones i found are:
+- `/openserverui`: Opens a server gui to tweak server settings (host only command)
+- `/mark`: Creates a waypoint marker at the current player position (very useful to find back home ;) )
+
 ### Plant Growth
 Plants in eco can take multiple real-life days until they're fully grown. (Smaller plants like Beans are fully grown after 19 hours, but large trees can take up to 6 days until they're fully grown)
 
