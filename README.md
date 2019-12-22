@@ -40,3 +40,18 @@ Talents = new Type[] {
 ```
 
 Now you'll get both perks regardless of which one you pick :)
+
+### External Mods
+Additionally i can recommend the following mods:
+
+- [Industrial Elevator](https://eco-mods.com/resources/vanilla-industrial-elevator-mod.154/)
+  An Elevator that is large enough to transport a vehicle up and down - a good replacement for ramps thats available in midgame.
+- [JD Garbage Man](https://eco-mods.com/resources/jd-garbageman-job.75/)
+  Adds the ability to recycle some materials, including tailings which helps in keeping pollution down.  
+  This mod is a bit game-breaking, because it removes the challange of having to deal with tailings - i would only recommend it for single-player playthroughs.  
+  *NOTE:* The perks don't work for the skills, i would recommend not getting the skills this mod provides.
+- [Big Shovel](https://eco-mods.com/resources/big-shovel-asphalt-mdk.34/)
+  Adds new shovels that allow you to pick up 10 pieces of dirt instead of just one.  
+- [JD Storage Chest](https://eco-mods.com/resources/jd_storagechest.73/)
+  Adds new storage chests that can also store blocks.  
+  The recipe involving iron is broken, it also just gives the wood version of the chest.
